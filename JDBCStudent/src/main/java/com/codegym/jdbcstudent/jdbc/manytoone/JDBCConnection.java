@@ -1,4 +1,4 @@
-package com.codegym.jdbcstudent.jdbc;
+package com.codegym.jdbcstudent.jdbc.manytoone;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class JDBCConnection {
     private static String user = "root";
     private static String password = "01666553995";
-    private static String url = "jdbc:mysql://localhost:3306/jdbcstudent";
+    private static String url = "jdbc:mysql://localhost:3306/manytoone";
     private static String driver = "com.mysql.cj.jdbc.Driver";
     public static Connection getConnection(){
         Connection connection;
